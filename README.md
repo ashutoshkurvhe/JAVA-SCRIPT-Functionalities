@@ -26,7 +26,7 @@ To get started with the projects, follow these steps:
 
 Clone the repository:
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/ashutoshkurvhe/JAVA-SCRIPT-Functionalities.git
 
 Navigate to the project folder:
 
@@ -35,18 +35,11 @@ cd your-repo-name
 Open the project in a browser:
 Open the index.html file of the desired project in a web browser.
 
-🤝 Contributing
-
-Contributions are welcome! Feel free to submit issues, suggest improvements, or add new mini projects.
-
-📜 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 📞 Contact
 
 For any questions or suggestions, feel free to reach out:
 
-GitHub: Your GitHub Profile
+GitHub: ashutoshkurvhe
 
-Email: your-email@example.com
+Email: kurvheashutosh@gmail.com
