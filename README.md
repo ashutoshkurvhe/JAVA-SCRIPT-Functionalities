@@ -8,6 +8,7 @@ This repository contains a set of mini projects demonstrating different JavaScri
 
 📂 Projects List
 
+1. Password Functionality
 
 
 🛠 Technologies Used
