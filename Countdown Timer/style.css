@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(45deg, #1a1a1a, #4a148c);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem 3rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.timer-container {
+  padding: 1rem;
+}
+
+.timer-display {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  font-family: "Courier New", monospace;
+  display: inline-block; /* Add this to make transform work properly */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  }
+  50% {
+    transform: scale(1.1);
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    transform: scale(1);
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  }
+}
+
+.timer-display.active {
+  animation: pulse 0.3s ease-in-out infinite;
+}
+
+.start-btn,
+.stop-btn {
+  padding: 10px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0 10px;
+  background: none;
+  border: 1px solid white;
+}
+
+.start-btn {
+  color: white;
+}
+
+.stop-btn {
+  color: white;
+}
+
+.start-btn:hover {
+  transform: scale(1.05);
+}
+
+.stop-btn:hover {
+  transform: scale(1.05);
+}
+
+.start-btn:active,
+.stop-btn:active {
+  transform: scale(0.95);
+}
