@@ -10,6 +10,7 @@ This repository contains a set of mini projects demonstrating different JavaScri
 
 1. Password Functionality
 2. Empty Input Alert
+3. Highlight Matching Search
    
 
 
